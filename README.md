@@ -89,20 +89,25 @@ The notebook loads `autodata.csv` directly from a GitHub URL, so no manual data 
 
 ## How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
+This notebook was built in **Google Colab**. The easiest way to run it is to open it directly in Colab:
+
+1. Go to [colab.research.google.com](https://colab.research.google.com)
+2. Click **File → Open notebook → GitHub**
+3. Paste in the repository URL:
    ```
-
-2. Install dependencies (see Requirements above).
-
-3. Launch Jupyter:
-   ```bash
-   jupyter notebook
+   https://github.com/quentinsjehn/auto-insurance-fairness-analysis
    ```
+4. Select `Fairness_Analysis_of_Auto_Insurance_Prediction_Model.ipynb` and click open
+5. Run all cells in order (**Runtime → Run all**)
 
-4. Open `Fairness_Analysis_of_Auto_Insurance_Prediction_Model.ipynb` and run all cells in order.
+All dependencies (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `statsmodels`) are pre-installed in Colab. The dataset is loaded directly from a URL, so no file uploads are needed.
+
+Alternatively, if you want to clone the repository locally:
+
+```bash
+git clone https://github.com/quentinsjehn/auto-insurance-fairness-analysis.git
+cd auto-insurance-fairness-analysis
+```
 
 ---
 
