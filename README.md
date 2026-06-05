@@ -1,5 +1,7 @@
 # Fairness Analysis of an Auto Insurance Prediction Model
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/quentinsjehn/auto-insurance-fairness-analysis/blob/main/Fairness_Analysis_of_Auto_Insurance_Prediction_Model.ipynb)
+
 An algorithmic fairness audit examining whether a logistic regression claim-prediction model treats blue-collar auto insurance customers equitably compared to other customer groups.
 
 ---
